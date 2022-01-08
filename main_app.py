@@ -43,4 +43,4 @@ if submit:
         else:
             st.title(str("It is a dog"))
 
-        st.title(str(Y_pred[0]))
+        st.title("% to be a cat "+str(Y_pred[0][0])+"% to be a dog "+str(Y_pred[0][1]))
